@@ -1,0 +1,17 @@
+print('=-' * 41)
+print('-' * 34, 'EXERCÍCIO 73', '-' * 34)
+print('-' * 19, 'Tabela do Campeonato Brasileiro de Futebol', '-' * 19)
+print('=-' * 41)
+tabela = ('Palmeiras', 'Flamengo', 'Corinthians', 'Fluminense', 'Athletico-PR', 'Internacional',
+          'Atlético-MG', 'América-MG', 'Bragantino', 'Santos', 'São Paulo', 'Botafogo',
+          'Goiás', 'Ceará SC', 'Fortaleza', 'Cuiabá', 'Avaí', 'Coritiba', 'Atlético-GO', 'Juventude')
+print('-=' * 16)
+print(f'Lista de times do Brasileirão: {tabela}')
+print('-=' * 16)
+print(f'Os cinco primeiros são: {tabela[0:4]}')
+print('-=' * 16)
+print(f'Os quatro últimos são: {tabela[-4:]}')
+print('-=' * 16)
+print(f'Times em ordem alfabética: {sorted(tabela)}')
+print('-=' * 16)
+print(f'O Flamengo está na {tabela.index("Flamengo")+1}ª posição.')
